@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css"></head>
+    <title>Reserve A Table</title>
+  </head>
+
+  <body>
+
+  	<h1>Table Finder</h1>
+    <h3>Pick your table now</h3>
+
+    <div id="tableFloorplan">
+      <div class="available" id="table1">1</div>
+      <div class="available" id="table2">2</div>
+      <div class="available" id="table3">3</div>
+      <div class="available" id="table4">4</div>
+      <div class="available" id="table5">5</div>
+      <div class="available" id="table6">6</div>
+      <div class="available" id="table7">7</div>
+      <div class="available" id="table8">8</div>
+      <div class="available" id="table9">9</div>
+    </div>
+
+    <div id="formWrap">
+      <img id="cancelForm" src="images/cancel.svg">
+      <h2>New Reservation</h2>
+      <h4>Table Number: <span id="tableNumber"></span></h4>
+      <input type="text" name="Name" id="nameInput" placeholder="Name..." autofocus>
+      <input type="tel" name="Phone" id="phoneInput" placeholder="Phone Number...">
+      <input type="number" name="Number" id="partyInput" placeholder="# of Guests...">
+      <button id="reserveButton">Reserve</button>
+    </div>
+
+  	<script src="scripts/jquery-3.2.1.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
